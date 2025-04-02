@@ -1,6 +1,6 @@
-//go:build !GM_USE_F32
+//go:build !MG_USE_F32
 
-package gm
+package mg
 
 import "math"
 

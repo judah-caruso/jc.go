@@ -1,4 +1,4 @@
-package gm
+package mg
 
 const Epsilon = 0.000001
 

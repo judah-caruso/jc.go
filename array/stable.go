@@ -16,10 +16,10 @@ type Stable[T any] struct {
 }
 
 func (s *Stable[T]) Init() {
-	s.InitWithSize(DefaultElementsPerBucket)
+	s.InitWithCapacity(DefaultElementsPerBucket)
 }
 
-func (s *Stable[T]) InitWithSize(elementsPerBucket int) {
+func (s *Stable[T]) InitWithCapacity(elementsPerBucket int) {
 	if elementsPerBucket <= 0 {
 		elementsPerBucket = DefaultElementsPerBucket
 	}

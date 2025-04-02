@@ -1,6 +1,6 @@
-//go:build GM_USE_TURNS || !(GM_USE_RADIANS || GM_USE_DEGREES)
+//go:build MG_USE_TURNS || !(MG_USE_RADIANS || MG_USE_DEGREES)
 
-package gm
+package mg
 
 func FromTurn(turn Float) Angle { return Angle(turn) }
 func FromRad(rad Float) Angle   { return Angle(rad * RadToTurn) }

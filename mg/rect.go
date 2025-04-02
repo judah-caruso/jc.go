@@ -1,4 +1,4 @@
-package gm
+package mg
 
 type Rect struct {
 	Min Vec2

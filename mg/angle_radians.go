@@ -1,6 +1,6 @@
-//go:build GM_USE_RADIANS
+//go:build MG_USE_RADIANS
 
-package gm
+package mg
 
 func FromRad(rad Float) Angle   { return Angle(rad) }
 func FromTurn(turn Float) Angle { return Angle(tur * TurnToRad) }

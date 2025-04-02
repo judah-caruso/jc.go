@@ -1,4 +1,4 @@
-package gm
+package mg
 
 type Vec2 struct {
 	X Float

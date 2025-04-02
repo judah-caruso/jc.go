@@ -1,6 +1,6 @@
-//go:build GM_USE_DEGREES
+//go:build MG_USE_DEGREES
 
-package gm
+package mg
 
 func FromDeg(deg Float) Angle   { return Angle(deg) }
 func FromRad(rad Float) Angle   { return Angle(rad * RadToDeg) }
