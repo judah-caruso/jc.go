@@ -23,9 +23,9 @@ There are many (game focused) math packages in Go, but I usually don't like them
    - Build with `MG_USE_RADIANS` to use radians internally
    - Build with `MG_USE_DEGREES` to use degrees internally
    - Build with `MG_USE_TURNS` to use turns internally (default)
-- `vec2.go` - Vector2 operations
-- `vec3.go` - Vector3 operations
-- `vec4.go` - Vector4 operations
+- `v2.go` - Vector2 operations
+- `v3.go` - Vector3 operations
+- `v4.go` - Vector4 operations
 
 ### Thelp (Test Helpers)
 
